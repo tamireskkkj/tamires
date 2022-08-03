@@ -1,0 +1,29 @@
+@import url("styles/header.css");
+@import url("styles/index-section.css");
+@import url("styles/about.css");
+@import url("styles/carrossel.css");
+@import url("styles/agrad.css");
+@import url("styles/rodape.css");
+
+:root {
+    --vermelho-destaque: #ff0000;
+    --cinza-escuro: #1e1e1e;
+    --cinza-detalhes: #363636;
+    --preto-background: #000;
+    --branco-text: #fff;
+    --fonte-principal: "Poppins";
+    --fonte-sec: "Montserrat", sans-serif;
+}
+
+body {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--branco-text);
+    background-color: #000;
+}
+
+.destaque {
+    color: var(--vermelho-destaque);
+}
+

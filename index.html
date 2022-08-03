@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FONTES IMPORTADAS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+    <title>Tamires</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container container-imagem">
+            <h1 class="header-titulo">t<b class="header-titulo-cor">m</b></h1>
+        </div>
+            <div class="container container-imagem">
+                <input type="checkbox"id="menu" class="menu-hamburguer">
+                <label for="menu" class="menu-rotulo">
+                    <span class="menu-hamburguer-logo"></span>
+                </label>
+                <ul class="lista-menu-responsive">
+                    <li class="lista-menu-resp-item">
+                        <a href="" class="lista-menu-resp-link">Início</a>
+                    </li>
+                    <li class="lista-menu-resp-item">
+                        <a href="" class="lista-menu-resp-link">Você</a>
+                    </li>
+                    <li class="lista-menu-resp-item">
+                        <a href="" class="lista-menu-resp-link">Amor</a>
+                    </li>
+                </ul>
+            </div>
+    </header>
+
+    <main>
+        <section class="index">
+            <div class="container">
+                <div class="index-descricao">
+                    <h2 class="index-titulo destaque">Então...</h2>
+                    <p class="index-texto">Decidi fazer isso porque te amo e pra treinar o que eu aprendi. Espero que goste</p>
+                </div>
+
+                <div class="index-imagem">
+                    <img src="assets/gato.png" alt="Foto do gatinho fazendo coração" class="index-imagem-gato">
+                </div>
+            </div>
+        </section>
+
+        <section class="about container">
+            <div class="imagem-about">
+                <img src="assets/ela.png" alt="" class="ela-imagem">
+            </div>
+
+            <div class="descricao-about">
+                <p class="descricao-about-texto"><b class="destaque">Tamires</b>, eu te amo muito e sou muito feliz por ter voce na minha vida</p>
+            </div>
+        </section>
+
+        <section class="carrossel">
+            <h2 class="carrossel-titulo destaque">Seus Desenhos</h2>
+            <p class="carrossel-texto">Eu amo seus desenhos, cada um deles que você faz da gente, eu guardo com muito carinho. Eles são lindos e espero que você continue fazendo.</p>
+            <div class="carrossel-container">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img src="assets/durag.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/we.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/paisagem.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/desenho-gato.png" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/trança.png" alt="">
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="agrad-container">
+            <h2 class="agrad-titulo destaque">Obrigado.</h2>
+            <p class="agrad-texto">Obrigado por tudo, por ser uma pessoa incrível que apesar de se estressar comigo as vezes, sempre me ajuda, me faz companhia e está do meu lado pra me apoiar, <b class="destaque">você é o amor da minha vida</b>. Sou muito feliz por ter você ao meu lado e espero que isso se mantenha pra sempre, <b class="destaque">eu te amo</b> ! </p>
+        </section>
+
+        <footer class="rodape">
+            <p class="rodape-texto"> Feito pelo seu pretinho, <b class="destaque">eu te amo</b> ! ❤️</p>
+        </footer>
+    </main>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>

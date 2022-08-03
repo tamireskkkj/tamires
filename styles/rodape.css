@@ -1,0 +1,9 @@
+.rodape {
+    border-top: 1px solid var(--cinza-detalhes);
+}
+
+.rodape-texto {
+    font-size: 12px;
+    font-weight: 300;
+    padding: 1.5em;
+}

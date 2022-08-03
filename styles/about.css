@@ -1,0 +1,14 @@
+.about {
+    margin: 3em 1em;
+}
+
+.descricao-about-texto {
+    font-size: 14px;
+    padding: 0.2em;
+    line-height: 16px;
+    text-align: left;
+}
+
+.ela-imagem {
+    margin-right: 1em;
+}

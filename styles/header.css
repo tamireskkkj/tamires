@@ -1,0 +1,72 @@
+.header {
+    background-color: var(--preto-background);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-bottom: 1px solid var(--cinza-detalhes);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container-imagem {
+    padding: 1em 2em;
+}
+
+
+/* TITULO LOGO TM*/
+
+.header-titulo {
+    font-family: var(--fonte-sec);
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.header-titulo-cor {
+    color: var(--vermelho-destaque);
+    font-size: 24px;
+    
+}
+
+
+/* MENU HAMBURGUER */
+
+.menu-hamburguer-logo {
+    width: 24px;
+    height: 24px;
+    background-image: url("../assets/menu.svg");
+    display: inline-block;
+    background-position: right;
+}
+
+.menu-hamburguer {
+    display: none;
+}
+
+.lista-menu-responsive {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 60%;
+    width: 40%;
+    text-align: center;
+}
+
+.menu-hamburguer:checked ~ .lista-menu-responsive {
+    display: block;
+}
+
+.lista-menu-resp-item {
+    background: var(--cinza-escuro);
+    padding: 1em;
+}
+
+.lista-menu-resp-link {
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 14px;
+}
+

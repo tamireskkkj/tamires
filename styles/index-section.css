@@ -1,0 +1,22 @@
+.index {
+    margin: 3em 1em;
+}
+.index-descricao {
+    display: flex;
+    flex-direction: column;
+}
+
+.index-titulo {
+    font-family: var(--fonte-sec);
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 0.7em;
+}
+
+.index-texto {
+    font-size: 14px;
+    line-height: 16px;
+    
+}
+
+
